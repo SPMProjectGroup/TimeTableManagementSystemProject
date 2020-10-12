@@ -150,7 +150,6 @@ public class ConSessionLocationView extends javax.swing.JFrame {
         lblGenTimeTables1 = new java.awt.Label();
         lblViewTimeTables1 = new java.awt.Label();
         jPanel12 = new javax.swing.JPanel();
-        lblDayHour4 = new java.awt.Label();
         lblLec4 = new java.awt.Label();
         lblSub4 = new java.awt.Label();
         lblTags = new java.awt.Label();
@@ -161,6 +160,7 @@ public class ConSessionLocationView extends javax.swing.JFrame {
         lblHome4 = new java.awt.Label();
         lblYS4 = new java.awt.Label();
         lblStat = new java.awt.Label();
+        lblDayHour = new java.awt.Label();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -388,14 +388,6 @@ public class ConSessionLocationView extends javax.swing.JFrame {
             }
         });
 
-        lblDayHour4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDayHour4.setText("Working Day & Hours |");
-        lblDayHour4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblDayHour4MouseClicked(evt);
-            }
-        });
-
         lblLec4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         lblLec4.setText("Lecturers |");
         lblLec4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -476,6 +468,14 @@ public class ConSessionLocationView extends javax.swing.JFrame {
             }
         });
 
+        lblDayHour.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblDayHour.setText("Working Days & Hours |");
+        lblDayHour.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblDayHourMouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
@@ -483,9 +483,9 @@ public class ConSessionLocationView extends javax.swing.JFrame {
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(lblHome4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(5, 5, 5)
+                .addComponent(lblDayHour, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblDayHour4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
                 .addComponent(lblLec4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblSub4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -510,6 +510,7 @@ public class ConSessionLocationView extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
                 .addContainerGap(20, Short.MAX_VALUE)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblDayHour, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblStdGrp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblPrgrm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblStat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -517,14 +518,11 @@ public class ConSessionLocationView extends javax.swing.JFrame {
                         .addComponent(lblYS4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblHome4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(lblDayHour4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblSub4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblStudents, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblTags, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblLocation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblLec4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                            .addComponent(lblSub4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblStudents, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblTags, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblLocation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblLec4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(13, 13, 13))
         );
 
@@ -674,10 +672,6 @@ public class ConSessionLocationView extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_lblNotAvTime1MouseClicked
 
-    private void lblDayHour4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHour4MouseClicked
-
-    }//GEN-LAST:event_lblDayHour4MouseClicked
-
     private void lblLec4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLec4MouseClicked
         // TODO add your handling code here:
         LecturerManage lecMng = new LecturerManage();
@@ -782,6 +776,17 @@ public class ConSessionLocationView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel12MouseClicked
 
+    private void lblDayHourMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHourMouseClicked
+        // TODO add your handling code here:
+        
+        Workingdaysandhours wdh = new Workingdaysandhours();
+        wdh.setSize(2000, 2000);
+        wdh.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblDayHourMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -834,7 +839,7 @@ public class ConSessionLocationView extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField_consessionlocId;
     private java.awt.Label lblBotOverlappingSession1;
     private java.awt.Label lblConSession1;
-    private java.awt.Label lblDayHour4;
+    private java.awt.Label lblDayHour;
     private java.awt.Label lblGenTimeTables1;
     private java.awt.Label lblHome4;
     private java.awt.Label lblLec4;

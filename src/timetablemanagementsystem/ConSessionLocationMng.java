@@ -274,18 +274,18 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         lblNotAvTime1 = new java.awt.Label();
         lblGenTimeTables1 = new java.awt.Label();
         lblViewTimeTables1 = new java.awt.Label();
-        jPanel12 = new javax.swing.JPanel();
-        lblDayHour4 = new java.awt.Label();
-        lblLec4 = new java.awt.Label();
-        lblSub4 = new java.awt.Label();
-        lblTags = new java.awt.Label();
-        lblStudents = new java.awt.Label();
-        lblLocation = new java.awt.Label();
-        lblPrgrm = new java.awt.Label();
-        lblStdGrp = new java.awt.Label();
-        lblHome4 = new java.awt.Label();
-        lblYS4 = new java.awt.Label();
-        lblStat = new java.awt.Label();
+        jPanel6 = new javax.swing.JPanel();
+        lblLec2 = new java.awt.Label();
+        lblSub2 = new java.awt.Label();
+        lblTags3 = new java.awt.Label();
+        lblStudents3 = new java.awt.Label();
+        lblLocation3 = new java.awt.Label();
+        lblPrgrm3 = new java.awt.Label();
+        lblStdGrp3 = new java.awt.Label();
+        lblHome2 = new java.awt.Label();
+        lblYS2 = new java.awt.Label();
+        lblStat3 = new java.awt.Label();
+        lblDayHour3 = new java.awt.Label();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -561,150 +561,148 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel12.setBackground(new java.awt.Color(100, 149, 237));
-        jPanel12.addMouseListener(new java.awt.event.MouseAdapter() {
+        jPanel6.setBackground(new java.awt.Color(100, 149, 237));
+        jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel12MouseClicked(evt);
+                jPanel6MouseClicked(evt);
             }
         });
 
-        lblDayHour4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblDayHour4.setText("Working Day & Hours |");
-        lblDayHour4.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblLec2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblLec2.setText("Lecturers |");
+        lblLec2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblDayHour4MouseClicked(evt);
+                lblLec2MouseClicked(evt);
             }
         });
 
-        lblLec4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblLec4.setText("Lecturers |");
-        lblLec4.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblSub2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblSub2.setText("Subjects |");
+        lblSub2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblLec4MouseClicked(evt);
+                lblSub2MouseClicked(evt);
             }
         });
 
-        lblSub4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblSub4.setText("Subjects |");
-        lblSub4.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblTags3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblTags3.setText(" Tags |");
+        lblTags3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblSub4MouseClicked(evt);
+                lblTags3MouseClicked(evt);
             }
         });
 
-        lblTags.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblTags.setText(" Tags |");
-        lblTags.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblStudents3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblStudents3.setText("Students |");
+        lblStudents3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblTagsMouseClicked(evt);
+                lblStudents3MouseClicked(evt);
             }
         });
 
-        lblStudents.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblStudents.setText("Students |");
-        lblStudents.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblLocation3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblLocation3.setText("Location |");
+        lblLocation3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblStudentsMouseClicked(evt);
+                lblLocation3MouseClicked(evt);
             }
         });
 
-        lblLocation.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblLocation.setText("Location |");
-        lblLocation.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblPrgrm3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblPrgrm3.setText("Programme |");
+        lblPrgrm3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblLocationMouseClicked(evt);
+                lblPrgrm3MouseClicked(evt);
             }
         });
 
-        lblPrgrm.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblPrgrm.setText("Programme |");
-        lblPrgrm.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblStdGrp3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblStdGrp3.setText("Student Groups  |");
+        lblStdGrp3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblPrgrmMouseClicked(evt);
+                lblStdGrp3MouseClicked(evt);
             }
         });
 
-        lblStdGrp.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblStdGrp.setText("Student Groups  |");
-        lblStdGrp.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblHome2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblHome2.setText("Home |");
+        lblHome2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblStdGrpMouseClicked(evt);
+                lblHome2MouseClicked(evt);
             }
         });
 
-        lblHome4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblHome4.setText("Home |");
-        lblHome4.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblYS2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblYS2.setText("Years & Semesters ");
+        lblYS2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblHome4MouseClicked(evt);
+                lblYS2MouseClicked(evt);
             }
         });
 
-        lblYS4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblYS4.setText("Years & Semesters");
-        lblYS4.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblStat3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblStat3.setText("Statistics |");
+        lblStat3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblYS4MouseClicked(evt);
+                lblStat3MouseClicked(evt);
             }
         });
 
-        lblStat.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lblStat.setText("Statistics |");
-        lblStat.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblDayHour3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblDayHour3.setText("Working Days & Hours |");
+        lblDayHour3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblStatMouseClicked(evt);
+                lblDayHour3MouseClicked(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblHome4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblHome2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblDayHour4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblDayHour3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15)
-                .addComponent(lblLec4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblLec2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblSub4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblSub2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(20, 20, 20)
-                .addComponent(lblStudents, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblStudents3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblTags, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblTags3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(19, 19, 19)
-                .addComponent(lblLocation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21)
-                .addComponent(lblStat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22)
-                .addComponent(lblPrgrm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblLocation3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24)
+                .addComponent(lblStat3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19)
+                .addComponent(lblPrgrm3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(lblStdGrp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblStdGrp3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblYS4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblYS2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(20, Short.MAX_VALUE)
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblStdGrp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblPrgrm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblStat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(lblYS4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblHome4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(lblDayHour4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblSub4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblStudents, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblTags, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblLocation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblLec4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblDayHour3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblStdGrp3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPrgrm3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblStat3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(lblYS2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblHome2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblSub2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblStudents3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblTags3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblLocation3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblLec2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(13, 13, 13))
         );
 
@@ -747,20 +745,20 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(49, 49, 49)
@@ -784,7 +782,7 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
                         .addComponent(jButton_Viewconsessionlocation, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton_back, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 121, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -931,11 +929,7 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_lblNotAvTime1MouseClicked
 
-    private void lblDayHour4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHour4MouseClicked
-
-    }//GEN-LAST:event_lblDayHour4MouseClicked
-
-    private void lblLec4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLec4MouseClicked
+    private void lblLec2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLec2MouseClicked
         // TODO add your handling code here:
         LecturerManage lecMng = new LecturerManage();
         lecMng.setSize(2000, 2000);
@@ -943,9 +937,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblLec4MouseClicked
+    }//GEN-LAST:event_lblLec2MouseClicked
 
-    private void lblSub4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSub4MouseClicked
+    private void lblSub2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSub2MouseClicked
         // TODO add your handling code here:
         SubjectManage subMng = new SubjectManage();
         subMng.setSize(2000, 2000);
@@ -953,9 +947,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblSub4MouseClicked
+    }//GEN-LAST:event_lblSub2MouseClicked
 
-    private void lblTagsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblTagsMouseClicked
+    private void lblTags3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblTags3MouseClicked
         // TODO add your handling code here:
         Tag tag = new Tag();
         tag.setSize(2000, 2000);
@@ -963,9 +957,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblTagsMouseClicked
+    }//GEN-LAST:event_lblTags3MouseClicked
 
-    private void lblStudentsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblStudentsMouseClicked
+    private void lblStudents3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblStudents3MouseClicked
         // TODO add your handling code here:
         Student student = new Student();
         student.setSize(2000, 2000);
@@ -973,9 +967,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblStudentsMouseClicked
+    }//GEN-LAST:event_lblStudents3MouseClicked
 
-    private void lblLocationMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLocationMouseClicked
+    private void lblLocation3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLocation3MouseClicked
         // TODO add your handling code here:
         LocationDetails locationDetails = new LocationDetails();
         locationDetails.setSize(2000, 2000);
@@ -983,9 +977,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblLocationMouseClicked
+    }//GEN-LAST:event_lblLocation3MouseClicked
 
-    private void lblPrgrmMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblPrgrmMouseClicked
+    private void lblPrgrm3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblPrgrm3MouseClicked
         // TODO add your handling code here:
         Add_Programme addPrgrm = new Add_Programme();
         addPrgrm.setSize(2000, 2000);
@@ -993,9 +987,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblPrgrmMouseClicked
+    }//GEN-LAST:event_lblPrgrm3MouseClicked
 
-    private void lblStdGrpMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblStdGrpMouseClicked
+    private void lblStdGrp3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblStdGrp3MouseClicked
         // TODO add your handling code here:
         Add_GroupNo addGrpNo = new Add_GroupNo();
         addGrpNo.setSize(2000, 2000);
@@ -1003,9 +997,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblStdGrpMouseClicked
+    }//GEN-LAST:event_lblStdGrp3MouseClicked
 
-    private void lblHome4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblHome4MouseClicked
+    private void lblHome2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblHome2MouseClicked
         // TODO add your handling code here:
         Home home = new Home();
         home.setSize(2000, 2000);
@@ -1013,9 +1007,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblHome4MouseClicked
+    }//GEN-LAST:event_lblHome2MouseClicked
 
-    private void lblYS4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblYS4MouseClicked
+    private void lblYS2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblYS2MouseClicked
         // TODO add your handling code here:
         Add_YearAndSemester addYrSem = new Add_YearAndSemester();
         addYrSem.setSize(2000, 2000);
@@ -1023,9 +1017,9 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblYS4MouseClicked
+    }//GEN-LAST:event_lblYS2MouseClicked
 
-    private void lblStatMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblStatMouseClicked
+    private void lblStat3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblStat3MouseClicked
         // TODO add your handling code here:
         StatisticsDashboard statMng = new StatisticsDashboard();
         statMng.setSize(2000, 2000);
@@ -1033,11 +1027,21 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblStatMouseClicked
+    }//GEN-LAST:event_lblStat3MouseClicked
 
-    private void jPanel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel12MouseClicked
+    private void lblDayHour3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHour3MouseClicked
+
+        Workingdaysandhours wdh = new Workingdaysandhours();
+        wdh.setSize(2000, 2000);
+        wdh.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblDayHour3MouseClicked
+
+    private void jPanel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jPanel12MouseClicked
+    }//GEN-LAST:event_jPanel6MouseClicked
 
     /**
      * @param args the command line arguments
@@ -1088,10 +1092,11 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel9;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTable jTable_ViewConSessions;
@@ -1099,32 +1104,46 @@ public class ConSessionLocationMng extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField_BuildingId;
     private javax.swing.JTextField jTextField_ConSessionId;
     private javax.swing.JTextField jTextField_ConTag;
-    private java.awt.Label lblBotOverlappingSession;
     private java.awt.Label lblBotOverlappingSession1;
-    private java.awt.Label lblConSession;
     private java.awt.Label lblConSession1;
-    private java.awt.Label lblDayHour4;
-    private java.awt.Label lblGenTimeTables;
+    private java.awt.Label lblDayHour1;
+    private java.awt.Label lblDayHour2;
+    private java.awt.Label lblDayHour3;
     private java.awt.Label lblGenTimeTables1;
-    private java.awt.Label lblHome4;
-    private java.awt.Label lblLec4;
+    private java.awt.Label lblHome;
+    private java.awt.Label lblHome1;
+    private java.awt.Label lblHome2;
+    private java.awt.Label lblLec;
+    private java.awt.Label lblLec1;
+    private java.awt.Label lblLec2;
     private java.awt.Label lblLocation;
-    private java.awt.Label lblNotAvTime;
+    private java.awt.Label lblLocation1;
+    private java.awt.Label lblLocation3;
     private java.awt.Label lblNotAvTime1;
-    private java.awt.Label lblParallelSe;
     private java.awt.Label lblParallelSe1;
     private java.awt.Label lblPrgrm;
-    private java.awt.Label lblRoomAllocate;
+    private java.awt.Label lblPrgrm1;
+    private java.awt.Label lblPrgrm3;
     private java.awt.Label lblRoomAllocate1;
-    private java.awt.Label lblSession;
     private java.awt.Label lblSession1;
     private java.awt.Label lblStat;
+    private java.awt.Label lblStat1;
+    private java.awt.Label lblStat3;
     private java.awt.Label lblStdGrp;
+    private java.awt.Label lblStdGrp1;
+    private java.awt.Label lblStdGrp3;
     private java.awt.Label lblStudents;
-    private java.awt.Label lblSub4;
+    private java.awt.Label lblStudents1;
+    private java.awt.Label lblStudents3;
+    private java.awt.Label lblSub;
+    private java.awt.Label lblSub1;
+    private java.awt.Label lblSub2;
     private java.awt.Label lblTags;
-    private java.awt.Label lblViewTimeTables;
+    private java.awt.Label lblTags1;
+    private java.awt.Label lblTags3;
     private java.awt.Label lblViewTimeTables1;
-    private java.awt.Label lblYS4;
+    private java.awt.Label lblYS;
+    private java.awt.Label lblYS1;
+    private java.awt.Label lblYS2;
     // End of variables declaration//GEN-END:variables
 }

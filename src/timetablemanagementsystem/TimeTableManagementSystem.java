@@ -7,7 +7,7 @@ package timetablemanagementsystem;
 
 /**
  *
- * @author Madhuransi
+ * @author acer
  */
 public class TimeTableManagementSystem {
 
@@ -16,6 +16,16 @@ public class TimeTableManagementSystem {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+         //call jframe here
+//        Home home = new Home();
+//        home.show();
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Home().setVisible(true);
+            }
+        });
     }
     
 }

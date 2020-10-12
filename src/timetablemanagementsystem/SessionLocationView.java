@@ -612,7 +612,14 @@ public class SessionLocationView extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton_DeleteActionPerformed
 
     private void lblDayHourMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHourMouseClicked
-
+       
+        Workingdaysandhours wdh = new Workingdaysandhours();
+        wdh.setSize(2000, 2000);
+        wdh.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+        
     }//GEN-LAST:event_lblDayHourMouseClicked
 
     private void lblLecMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLecMouseClicked

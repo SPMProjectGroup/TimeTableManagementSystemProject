@@ -392,6 +392,11 @@ public class Home extends javax.swing.JFrame {
         lblGenTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         lblGenTimeTables.setForeground(new java.awt.Color(0, 0, 102));
         lblGenTimeTables.setText("GENERATE TIMETABLES");
+        lblGenTimeTables.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblGenTimeTablesMouseClicked(evt);
+            }
+        });
 
         lblViewTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         lblViewTimeTables.setForeground(new java.awt.Color(0, 0, 102));
@@ -499,7 +504,12 @@ public class Home extends javax.swing.JFrame {
 
     private void btnMngWorkDaysActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMngWorkDaysActionPerformed
         // TODO add your handling code here:
-        
+         Workingdaysandhours wdh = new Workingdaysandhours();
+         wdh.setSize(2000, 2000);
+         wdh.setVisible(true); 
+         this.setVisible(false); 
+         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE); 
+         this.dispose();
     }//GEN-LAST:event_btnMngWorkDaysActionPerformed
 
     private void btnMngStudentsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMngStudentsActionPerformed
@@ -564,6 +574,12 @@ public class Home extends javax.swing.JFrame {
 
     private void lblDayHourMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHourMouseClicked
 
+         Workingdaysandhours wdh = new Workingdaysandhours();
+         wdh.setSize(2000, 2000);
+         wdh.setVisible(true); 
+         this.setVisible(false); 
+         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE); 
+         this.dispose();
     }//GEN-LAST:event_lblDayHourMouseClicked
 
     private void lblLecMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLecMouseClicked
@@ -740,6 +756,11 @@ public class Home extends javax.swing.JFrame {
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
     }//GEN-LAST:event_lblNotAvTimeMouseClicked
+
+    private void lblGenTimeTablesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblGenTimeTablesMouseClicked
+        // TODO add your handling code here:
+      
+    }//GEN-LAST:event_lblGenTimeTablesMouseClicked
 
     /**
      * @param args the command line arguments

@@ -471,7 +471,7 @@ public class NotAvailableTimes extends javax.swing.JFrame {
             }
         });
 
-        btn_Add.setBackground(new java.awt.Color(0, 153, 255));
+        btn_Add.setBackground(new java.awt.Color(0, 51, 204));
         btn_Add.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btn_Add.setText("ADD");
         btn_Add.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -555,7 +555,7 @@ public class NotAvailableTimes extends javax.swing.JFrame {
             }
         });
 
-        btn_delete.setBackground(new java.awt.Color(255, 51, 51));
+        btn_delete.setBackground(new java.awt.Color(255, 0, 0));
         btn_delete.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btn_delete.setText("DELETE");
         btn_delete.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -806,6 +806,13 @@ public class NotAvailableTimes extends javax.swing.JFrame {
 
     private void lblDayHour1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHour1MouseClicked
 
+        
+        Workingdaysandhours wdh = new Workingdaysandhours();
+        wdh.setSize(2000, 2000);
+        wdh.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
     }//GEN-LAST:event_lblDayHour1MouseClicked
 
     private void lblLec1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblLec1MouseClicked
