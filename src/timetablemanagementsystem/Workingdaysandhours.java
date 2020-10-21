@@ -116,15 +116,6 @@ public class Workingdaysandhours extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
-        jPanel4 = new javax.swing.JPanel();
-        lblConSession = new java.awt.Label();
-        lblRoomAllocate = new java.awt.Label();
-        lblSession = new java.awt.Label();
-        lblParallelSe = new java.awt.Label();
-        lblBotOverlappingSession = new java.awt.Label();
-        lblNotAvTime = new java.awt.Label();
-        lblGenTimeTables = new java.awt.Label();
-        lblViewTimeTables = new java.awt.Label();
         jPanel2 = new javax.swing.JPanel();
         lblDayHour = new java.awt.Label();
         lblLec = new java.awt.Label();
@@ -137,6 +128,14 @@ public class Workingdaysandhours extends javax.swing.JFrame {
         lblHome = new java.awt.Label();
         lblYS = new java.awt.Label();
         lblStat = new java.awt.Label();
+        jPanel4 = new javax.swing.JPanel();
+        lblConSession = new java.awt.Label();
+        lblRoomAllocate = new java.awt.Label();
+        lblSession = new java.awt.Label();
+        lblParallelSe = new java.awt.Label();
+        lblBotOverlappingSession = new java.awt.Label();
+        lblNotAvTime = new java.awt.Label();
+        lblGenTimeTables = new java.awt.Label();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -368,109 +367,6 @@ public class Workingdaysandhours extends javax.swing.JFrame {
                 .addContainerGap(55, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(153, 153, 255));
-
-        lblConSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblConSession.setForeground(new java.awt.Color(0, 0, 102));
-        lblConSession.setText("CONSECUTIVE SESSIONS");
-        lblConSession.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblConSessionMouseClicked(evt);
-            }
-        });
-
-        lblRoomAllocate.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblRoomAllocate.setForeground(new java.awt.Color(0, 0, 102));
-        lblRoomAllocate.setText("ROOM ALLOCATION");
-        lblRoomAllocate.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblRoomAllocateMouseClicked(evt);
-            }
-        });
-
-        lblSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblSession.setForeground(new java.awt.Color(0, 0, 102));
-        lblSession.setText("SESSIONS");
-        lblSession.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblSessionMouseClicked(evt);
-            }
-        });
-
-        lblParallelSe.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblParallelSe.setForeground(new java.awt.Color(0, 0, 102));
-        lblParallelSe.setText("PARALLEL SESSIONS");
-        lblParallelSe.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblParallelSeMouseClicked(evt);
-            }
-        });
-
-        lblBotOverlappingSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblBotOverlappingSession.setForeground(new java.awt.Color(0, 0, 102));
-        lblBotOverlappingSession.setText("NOT OVERLAPPING SESSIONS");
-        lblBotOverlappingSession.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblBotOverlappingSessionMouseClicked(evt);
-            }
-        });
-
-        lblNotAvTime.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblNotAvTime.setForeground(new java.awt.Color(0, 0, 102));
-        lblNotAvTime.setText("NOT AVAILABLE TIME");
-        lblNotAvTime.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblNotAvTimeMouseClicked(evt);
-            }
-        });
-
-        lblGenTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblGenTimeTables.setForeground(new java.awt.Color(0, 0, 102));
-        lblGenTimeTables.setText("GENERATE TIMETABLES");
-
-        lblViewTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblViewTimeTables.setForeground(new java.awt.Color(0, 0, 102));
-        lblViewTimeTables.setText("VIEW TIMETABLES");
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(lblSession, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblRoomAllocate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(19, 19, 19)
-                .addComponent(lblConSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(lblParallelSe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(lblBotOverlappingSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(19, 19, 19)
-                .addComponent(lblNotAvTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21)
-                .addComponent(lblGenTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblViewTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblViewTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblGenTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblNotAvTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblBotOverlappingSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblParallelSe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblRoomAllocate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblConSession, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
         jPanel2.setBackground(new java.awt.Color(100, 149, 237));
         jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -618,6 +514,107 @@ public class Workingdaysandhours extends javax.swing.JFrame {
                 .addGap(13, 13, 13))
         );
 
+        jPanel4.setBackground(new java.awt.Color(153, 153, 255));
+
+        lblConSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblConSession.setForeground(new java.awt.Color(0, 0, 102));
+        lblConSession.setText("CONSECUTIVE SESSIONS");
+        lblConSession.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblConSessionMouseClicked(evt);
+            }
+        });
+
+        lblRoomAllocate.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblRoomAllocate.setForeground(new java.awt.Color(0, 0, 102));
+        lblRoomAllocate.setText("ROOM ALLOCATION");
+        lblRoomAllocate.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblRoomAllocateMouseClicked(evt);
+            }
+        });
+
+        lblSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblSession.setForeground(new java.awt.Color(0, 0, 102));
+        lblSession.setText("SESSIONS");
+        lblSession.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblSessionMouseClicked(evt);
+            }
+        });
+
+        lblParallelSe.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblParallelSe.setForeground(new java.awt.Color(0, 0, 102));
+        lblParallelSe.setText("PARALLEL SESSIONS");
+        lblParallelSe.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblParallelSeMouseClicked(evt);
+            }
+        });
+
+        lblBotOverlappingSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblBotOverlappingSession.setForeground(new java.awt.Color(0, 0, 102));
+        lblBotOverlappingSession.setText("NOT OVERLAPPING SESSIONS");
+        lblBotOverlappingSession.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblBotOverlappingSessionMouseClicked(evt);
+            }
+        });
+
+        lblNotAvTime.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblNotAvTime.setForeground(new java.awt.Color(0, 0, 102));
+        lblNotAvTime.setText("NOT AVAILABLE TIME");
+        lblNotAvTime.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblNotAvTimeMouseClicked(evt);
+            }
+        });
+
+        lblGenTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblGenTimeTables.setForeground(new java.awt.Color(0, 0, 102));
+        lblGenTimeTables.setText("GENERATE TIMETABLES");
+        lblGenTimeTables.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblGenTimeTablesMouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblSession, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblRoomAllocate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19)
+                .addComponent(lblConSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lblParallelSe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lblBotOverlappingSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19)
+                .addComponent(lblNotAvTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21)
+                .addComponent(lblGenTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblGenTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblNotAvTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBotOverlappingSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblParallelSe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblRoomAllocate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblConSession, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -691,22 +688,22 @@ public class Workingdaysandhours extends javax.swing.JFrame {
                 .addComponent(canvas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(12, 12, 12)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -949,67 +946,6 @@ public class Workingdaysandhours extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void lblConSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblConSessionMouseClicked
-        // TODO add your handling code here:
-        Add_Consecutive_sessions addConSession = new Add_Consecutive_sessions();
-        addConSession.setSize(2000, 2000);
-        addConSession.setVisible(true);
-        this.setVisible(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.dispose();
-    }//GEN-LAST:event_lblConSessionMouseClicked
-
-    private void lblRoomAllocateMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblRoomAllocateMouseClicked
-        // TODO add your handling code here:
-        RoomMngDashboard roomMngDB = new RoomMngDashboard();
-        roomMngDB.setSize(2000, 2000);
-        roomMngDB.setVisible(true);
-        this.setVisible(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.dispose();
-    }//GEN-LAST:event_lblRoomAllocateMouseClicked
-
-    private void lblSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSessionMouseClicked
-        // TODO add your handling code here:
-        AddSessions addSessions = new AddSessions();
-        addSessions.setSize(2000, 2000);
-        addSessions.setVisible(true);
-        this.setVisible(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.dispose();
-    }//GEN-LAST:event_lblSessionMouseClicked
-
-    private void lblParallelSeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblParallelSeMouseClicked
-        // TODO add your handling code here:
-        Add_Parallel_Sessions addPrSession = new Add_Parallel_Sessions();
-        addPrSession.setSize(2000, 2000);
-        addPrSession.setVisible(true);
-        this.setVisible(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.dispose();
-    }//GEN-LAST:event_lblParallelSeMouseClicked
-
-    private void lblBotOverlappingSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblBotOverlappingSessionMouseClicked
-        // TODO add your handling code here:
-
-        Add_Not_Overlapping_sessions addNotOvSession = new Add_Not_Overlapping_sessions();
-        addNotOvSession.setSize(2000, 2000);
-        addNotOvSession.setVisible(true);
-        this.setVisible(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.dispose();
-    }//GEN-LAST:event_lblBotOverlappingSessionMouseClicked
-
-    private void lblNotAvTimeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblNotAvTimeMouseClicked
-        // TODO add your handling code here:
-        NotAvailableTimes notAvTimes = new NotAvailableTimes();
-        notAvTimes.setSize(2000, 2000);
-        notAvTimes.setVisible(true);
-        this.setVisible(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.dispose();
-    }//GEN-LAST:event_lblNotAvTimeMouseClicked
-
     private void lblDayHourMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDayHourMouseClicked
 
         Workingdaysandhours wdh = new Workingdaysandhours();
@@ -1124,6 +1060,78 @@ public class Workingdaysandhours extends javax.swing.JFrame {
     private void jPanel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel2MouseClicked
+
+    private void lblConSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblConSessionMouseClicked
+        // TODO add your handling code here:
+        Add_Consecutive_sessions addConSession = new Add_Consecutive_sessions();
+        addConSession.setSize(2000, 2000);
+        addConSession.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblConSessionMouseClicked
+
+    private void lblRoomAllocateMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblRoomAllocateMouseClicked
+        // TODO add your handling code here:
+        RoomMngDashboard roomMngDB = new RoomMngDashboard();
+        roomMngDB.setSize(2000, 2000);
+        roomMngDB.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblRoomAllocateMouseClicked
+
+    private void lblSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSessionMouseClicked
+        // TODO add your handling code here:
+        AddSessions addSessions = new AddSessions();
+        addSessions.setSize(2000, 2000);
+        addSessions.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblSessionMouseClicked
+
+    private void lblParallelSeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblParallelSeMouseClicked
+        // TODO add your handling code here:
+        Add_Parallel_Sessions addPrSession = new Add_Parallel_Sessions();
+        addPrSession.setSize(2000, 2000);
+        addPrSession.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblParallelSeMouseClicked
+
+    private void lblBotOverlappingSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblBotOverlappingSessionMouseClicked
+        // TODO add your handling code here:
+
+        Add_Not_Overlapping_sessions addNotOvSession = new Add_Not_Overlapping_sessions();
+        addNotOvSession.setSize(2000, 2000);
+        addNotOvSession.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblBotOverlappingSessionMouseClicked
+
+    private void lblNotAvTimeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblNotAvTimeMouseClicked
+        // TODO add your handling code here:
+        NotAvailableTimes notAvTimes = new NotAvailableTimes();
+        notAvTimes.setSize(2000, 2000);
+        notAvTimes.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblNotAvTimeMouseClicked
+
+    private void lblGenTimeTablesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblGenTimeTablesMouseClicked
+        // TODO add your handling code here:
+
+        generateTimetable gt = new generateTimetable();
+        gt.setSize(2000, 2000);
+        gt.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblGenTimeTablesMouseClicked
 
     public void showChanges(){
         workingdaysList9.clear();
@@ -1270,7 +1278,6 @@ public class Workingdaysandhours extends javax.swing.JFrame {
     private java.awt.Label lblStudents;
     private java.awt.Label lblSub;
     private java.awt.Label lblTags;
-    private java.awt.Label lblViewTimeTables;
     private java.awt.Label lblYS;
     private java.util.List<timetablemanagementsystem.Workingdays> workingdaysList;
     private java.util.List<timetablemanagementsystem.Workingdays> workingdaysList1;

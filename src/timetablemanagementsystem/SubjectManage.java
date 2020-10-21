@@ -116,15 +116,14 @@ public class SubjectManage extends javax.swing.JFrame {
         lblErrLabH = new javax.swing.JLabel();
         lblErrorTuteH = new javax.swing.JLabel();
         lblErrorLecH = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
         lblConSession = new java.awt.Label();
         lblRoomAllocate = new java.awt.Label();
-        lblSession = new java.awt.Label();
+        lblSession2 = new java.awt.Label();
         lblParallelSe = new java.awt.Label();
         lblBotOverlappingSession = new java.awt.Label();
         lblNotAvTime = new java.awt.Label();
         lblGenTimeTables = new java.awt.Label();
-        lblViewTimeTables = new java.awt.Label();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -436,7 +435,7 @@ public class SubjectManage extends javax.swing.JFrame {
         lblErrorLecH.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         lblErrorLecH.setForeground(new java.awt.Color(255, 51, 0));
 
-        jPanel9.setBackground(new java.awt.Color(153, 153, 255));
+        jPanel5.setBackground(new java.awt.Color(153, 153, 255));
 
         lblConSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         lblConSession.setForeground(new java.awt.Color(0, 0, 102));
@@ -456,12 +455,12 @@ public class SubjectManage extends javax.swing.JFrame {
             }
         });
 
-        lblSession.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblSession.setForeground(new java.awt.Color(0, 0, 102));
-        lblSession.setText("SESSIONS");
-        lblSession.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblSession2.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblSession2.setForeground(new java.awt.Color(0, 0, 102));
+        lblSession2.setText("SESSIONS");
+        lblSession2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblSessionMouseClicked(evt);
+                lblSession2MouseClicked(evt);
             }
         });
 
@@ -495,18 +494,19 @@ public class SubjectManage extends javax.swing.JFrame {
         lblGenTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         lblGenTimeTables.setForeground(new java.awt.Color(0, 0, 102));
         lblGenTimeTables.setText("GENERATE TIMETABLES");
+        lblGenTimeTables.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblGenTimeTablesMouseClicked(evt);
+            }
+        });
 
-        lblViewTimeTables.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        lblViewTimeTables.setForeground(new java.awt.Color(0, 0, 102));
-        lblViewTimeTables.setText("VIEW TIMETABLES");
-
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblSession, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblSession2, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblRoomAllocate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(19, 19, 19)
@@ -519,21 +519,18 @@ public class SubjectManage extends javax.swing.JFrame {
                 .addComponent(lblNotAvTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(21, 21, 21)
                 .addComponent(lblGenTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblViewTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblViewTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblGenTimeTables, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblNotAvTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblBotOverlappingSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblParallelSe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblSession, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblSession2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblRoomAllocate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblConSession, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -596,16 +593,16 @@ public class SubjectManage extends javax.swing.JFrame {
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(14, 14, 14)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(37, 37, 37)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -957,7 +954,7 @@ public class SubjectManage extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_lblRoomAllocateMouseClicked
 
-    private void lblSessionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSessionMouseClicked
+    private void lblSession2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSession2MouseClicked
         // TODO add your handling code here:
         AddSessions addSessions = new AddSessions();
         addSessions.setSize(2000, 2000);
@@ -965,7 +962,7 @@ public class SubjectManage extends javax.swing.JFrame {
         this.setVisible(false);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
-    }//GEN-LAST:event_lblSessionMouseClicked
+    }//GEN-LAST:event_lblSession2MouseClicked
 
     private void lblParallelSeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblParallelSeMouseClicked
         // TODO add your handling code here:
@@ -997,6 +994,17 @@ public class SubjectManage extends javax.swing.JFrame {
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
         this.dispose();
     }//GEN-LAST:event_lblNotAvTimeMouseClicked
+
+    private void lblGenTimeTablesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblGenTimeTablesMouseClicked
+        // TODO add your handling code here:
+
+        generateTimetable gt = new generateTimetable();
+        gt.setSize(2000, 2000);
+        gt.setVisible(true);
+        this.setVisible(false);
+        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_lblGenTimeTablesMouseClicked
 
     /**
      * @param args the command line arguments
@@ -1053,7 +1061,7 @@ public class SubjectManage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel9;
+    private javax.swing.JPanel jPanel5;
     private java.awt.Label lblBotOverlappingSession;
     private java.awt.Label lblConSession;
     private java.awt.Label lblDayHour;
@@ -1069,14 +1077,13 @@ public class SubjectManage extends javax.swing.JFrame {
     private java.awt.Label lblParallelSe;
     private java.awt.Label lblPrgrm;
     private java.awt.Label lblRoomAllocate;
-    private java.awt.Label lblSession;
+    private java.awt.Label lblSession2;
     private java.awt.Label lblStat;
     private java.awt.Label lblStdGrp;
     private java.awt.Label lblStudents;
     private java.awt.Label lblSub;
     private java.awt.Label lblTags;
     private java.awt.Label lblViewSub1;
-    private java.awt.Label lblViewTimeTables;
     private java.awt.Label lblYS;
     private javax.swing.JTextField txtEvlHours;
     private javax.swing.JTextField txtLabHours;
